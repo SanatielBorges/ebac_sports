@@ -1,4 +1,5 @@
-import { Produto as ProdutoType } from '../../App'
+// Produto/index.tsx
+import { Produto as ProdutoType } from '../../types'
 import * as S from './styles'
 
 type Props = {
