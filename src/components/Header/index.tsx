@@ -1,6 +1,6 @@
 // Header/index.tsx
 import * as S from './styles'
-import { Produto } from '../../types' // Importe o tipo Produto
+import { Produto } from '../../types'
 
 import cesta from '../../assets/cesta.png'
 import { paraReal } from '../Produto'

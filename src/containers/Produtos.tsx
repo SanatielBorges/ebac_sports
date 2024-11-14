@@ -1,12 +1,12 @@
-import { Produto as ProdutoType } from '../types' // Corrigir a importação do tipo Produto
+import { Produto as ProdutoType } from '../types' 
 import Produto from '../components/Produto'
 import * as S from './styles'
 
 type Props = {
   produtos: ProdutoType[]
-  favoritos: ProdutoType[] // Adicione a propriedade favoritos
+  favoritos: ProdutoType[] 
   adicionarAoCarrinho: (produto: ProdutoType) => void
-  favoritar: (produto: ProdutoType) => void // Adicione a propriedade favoritar
+  favoritar: (produto: ProdutoType) => void 
 }
 
 const ProdutosComponent = ({
